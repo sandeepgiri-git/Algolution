@@ -1,6 +1,16 @@
 #include<iostream>
 using namespace std;
 
+void print(int a[],int n){
+    for (int i = 0; i < n; i++)
+    {
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+    
+}
+//pushed
+
 bool checkPerfectSquare(int n){
     for(int i = 0;i<n/2;i++){
         if(i*i == n){
